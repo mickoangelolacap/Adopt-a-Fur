@@ -119,7 +119,7 @@ label {
 }
 .howPosition2 {
 	position: relative;
-	top: 25%;
+	top: 22%;
 }
 .howPosition p {
 	font-size: 20px;
@@ -167,7 +167,7 @@ label {
 }
 #contactHead {
 	font-family: 'Sacramento', cursive;
-	font-size: 5rem;
+	font-size: 4rem;
 }
 .contactPosition {
 	position: relative;
@@ -512,7 +512,7 @@ label {
 	}
 	#contactHead {
 		font-family: 'Sacramento', cursive;
-		font-size: 50px;
+		font-size: 40px;
 	}
 	.contactPosition p {
 		font-size: 10px;
@@ -522,6 +522,7 @@ label {
 	}
 	.social-media a{
 		color: #333;
+		font-size: 20px;
 	}
 	/*end contact*/
 
