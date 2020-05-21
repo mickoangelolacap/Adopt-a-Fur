@@ -1,0 +1,35 @@
+5. List down your migrations and its columns that we need for an Ecommerce app
+
+	users - mobile_no, address, role
+
+	categories (of pets) - category_name
+
+	pets - pet_name, adoption_fee, description, image, category_id, stocks, age, gender
+
+	orders (of pets) - transaction_code, user_id, purchase_date, total_price, status_id
+
+	statuses (of orders) - status_name
+
+	order_pet (pivot table of orders and pets) = order_id, pet_id
+
+6. List down the relationships of your migrations
+	categories to pets - one to many (one category has many pets)
+
+	users to orders - one to many (one user has many orders)
+
+	statuses to orders -  one to many (one status has many orders)
+
+	orders to pets - many to many (many orders has many pets, many pets belongs to many orders) *pivot table -> order_pet_table
+
+7. List down the models that we need for your app.
+	User
+	Category
+	Pet
+	Order
+	Status
+
+8. List down the controllers that we need for our app:
+	PetsController - for CRUD functionality of our products
+	OrdersController - for CRUD functionality of our Cart
+
+	ShelterController

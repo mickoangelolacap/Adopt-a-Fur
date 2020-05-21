@@ -1,0 +1,605 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'Sacramento', cursive;*/
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+html {
+	scroll-behavior: smooth;
+}
+.center-vertical {
+	position: relative;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.form-control {
+	border: 1px solid #FFC107;
+}
+.form-control:hover {
+	background-color: rgba(255,193,7,0.5);
+	transition: .3s;
+}
+.form-control:focus {
+	background-color: rgba(255,193,7,0.5);
+	transition: .3s;
+}
+label {
+	font-style: italic;
+	font-weight: bold;
+}
+.card {
+	height: 100%;
+	border-radius: 30px;
+	background-color: rgba(255,193,7,0.1);
+	/*color: #FFC107;*/
+}
+.card:hover {
+	/*transform: scale(1.03);*/
+	transition: .3s;
+	background-color: rgba(255,193,7,0.3);
+	/*box-shadow: 0 0 5px;*/
+	color: #333;
+}
+
+/*Home*/
+/*navbar*/
+.navbar-brand {
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	font-size: 35px;
+}
+.nav-link {
+	font-weight: bold;
+	margin: 0 10px;
+}
+/*end navbar*/
+
+/*Welcome*/
+.welcomeBG {
+	height: 100vh;
+	background-image: url(welcome.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#welcomeHead {
+	font-family: 'Sacramento', cursive;
+	font-size: 8rem;
+}
+/*end Welcome*/
+
+/*whyAdopt*/
+.whyAdoptBG {
+	height: 120vh;
+	background-image: url(whyadopt.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#whyAdoptHead {
+	font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+}
+.whyPosition {
+	position: relative;
+	top: 19%;
+}
+.whyPosition img {
+	height: 50px;
+	margin: 20px;
+}
+.whyPosition p {
+	font-size: 18px;
+}
+.whyPosition img:hover {
+	transform: scale(1.3);
+	transition: .2s;
+}
+/*end whyAdopt*/
+
+/*howAdopt*/
+.howAdoptBG {
+	height: 120vh;
+	background-image: url(howadopt.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#howAdoptHead {
+	font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+}
+.howPosition {
+	position: relative;
+	top: 20%;
+}
+.howPosition2 {
+	position: relative;
+	top: 30%;
+}
+.howPosition p {
+	font-size: 20px;
+}
+.howPosition2 img {
+	height: 50px;
+	margin: 20px;
+}
+.howPosition2 img:hover {
+	transform: scale(1.3);
+	transition: .2s;
+}
+/*end howAdopt*/
+
+/*gelo*/
+#geloBG {
+	height: 120vh;
+	background-image: url(gelo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.geloFriend {
+	font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+}
+#geloBG a {
+	border-radius: 50px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+/*end gelo*/
+
+/*contact*/
+/*#contact {
+	position: fixed;
+}*/
+.contactBG {
+	height: 70vh;
+	background-image: url(contact.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#contactHead {
+	font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+}
+.contactPosition {
+	position: relative;
+	top: 35%;
+}
+.social-media a{
+	color: #efefef;
+	padding: 0 .2rem;
+	font-size: 1.5rem;
+	opacity: .75;
+	text-decoration: none;
+}
+.social-media a:hover{
+	opacity: 1;
+}
+/*end contact*/
+/*endHome*/
+
+/*Fur babies*/
+#myTable4 {
+	min-height: 100vh;
+	background-image: url(catalog.png);
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	background-size: cover;
+}
+.modal-content {
+	border-radius: 30px;
+}
+.cardInside {
+	height: 100%;
+	border-radius: 30px;
+	background-color: rgba(255,193,7,0.1);
+	color: #FFC107;
+}
+.cardInside:hover {
+	transform: scale(1.03);
+	transition: .3s;
+	background-color: rgba(255,193,7,0.3);
+	box-shadow: 0 0 5px;
+	color: #333;
+}
+.card-img-top {
+	height: 50vh;
+	border-radius: 30px;
+}
+.card-title  {
+	font-weight: bolder;
+}
+.cardInside button {
+	border-radius: 30px;
+}
+.modal button {
+	border-radius: 30px;
+}
+.overflow {
+	white-space: nowrap; 
+ 	width: 100%; 
+    overflow: scroll;
+ 	/*text-overflow: ellipsis; */
+}
+.overflow::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.overflow {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+/*end Fur Babies*/
+
+/*Shelter*/
+.shelterBG {
+	height: 100vh;
+	background-image: url(bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.jumbotron {
+	background-color: rgba(255,193,7,0.2);
+	border-radius: 30px;
+}
+.shelterOverflow {
+	white-space: nowrap; 
+ 	height: 100%; 
+    overflow: scroll;
+}
+.shelterOverflow::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.shelterOverflow {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+/*Shelter*/
+
+/*Rescue*/
+.rescueBG {
+	height: 100vh;
+	background-image: url(bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.rescueBG button {
+	border-radius: 30px;
+}
+/*end rescue*/
+
+/*History*/
+.historyBG {
+	min-height: 100vh;
+	background-image: url(bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.historyHead {
+	font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+	color: #FFC107;
+}
+.historyBG thead {
+	background-color: rgba(255,193,7,0.5);
+	border-radius: 30px;
+}
+/*end History*/
+
+.tableOverflow table {
+	table-layout: fixed;
+}
+
+/*Admin*/
+.adminBG {
+	min-height: 100vh;
+	background-image: url(bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.adminHead {
+	font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+	color: #FFC107;
+}
+.adminBG thead {
+	background-color: rgba(255,193,7,0.5);
+	border-radius: 30px;
+}
+/*end Admin*/
+
+/*Steps*/
+#stepsBG {
+	height: 100vh;
+	background-image: url(steps.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*end Steps*/
+
+
+/* MEDIUM SCREEN */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+
+	/*whyAdopt*/
+	#whyAdoptHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 7rem;
+	}
+	.whyPosition {
+		position: relative;
+		top: 8%;
+	}
+	.whyPosition p {
+		font-size: 20px;
+	}
+	/*end whyAdopt*/
+
+	/*howAdopt*/
+	#howAdoptHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 8rem;
+	}
+	.howPosition {
+		position: relative;
+		top: 8%;
+	}
+	.howPosition2 {
+		position: relative;
+		top: 15%;
+	}
+	.howPosition p {
+		font-size: 25px;
+	}
+	/*end howAdopt*/
+
+	/*contact*/
+	.contactBG {
+		height: 50vh;
+		background-position: right;
+	}
+	#contactHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 5rem;
+	}
+	/*end contact*/
+
+	/*shelter*/
+	.shelterBG {
+		height: 100%;
+	}
+	/*end shelter*/
+
+	/*rescue*/
+	.rescueBG {
+		height: 100%;
+	}
+	/*end rescue*/
+
+	.tableOverflow table {
+		table-layout: auto;
+	}
+	.tableOverflow span {
+		display: flex;
+		flex-direction: column;
+	}
+	.tableOverflow {
+		white-space: nowrap; 
+	 	width: 100%; 
+	    overflow: scroll;
+	}
+	.tableOverflow::-webkit-scrollbar { 
+	    display: none;  /* Safari and Chrome */
+	}
+	.tableOverflow {
+	    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+	    scrollbar-width: none;  /* Firefox */
+	}
+
+	/*Admin*/
+	.nav-tabs {
+		font-size: 10px;
+	}
+	.adminBG {
+		min-height: 100vh;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.adminHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 3rem;
+		color: #FFC107;
+	}
+	/*end Admin*/
+
+	/*Steps*/
+	#stepsBG {
+		background-image: url(stepsmobile.png);
+		background-size: contain;
+	}
+	/*end Steps*/
+}
+
+/* SMALL SCREEN */
+@media only screen and (max-width: 451px) {
+
+	/*welcome*/
+	.welcomeBG {
+		background-position: center;
+	}
+	#welcomeHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 5rem;
+	}
+	/*end welcome*/
+
+	/*whyAdopt*/
+	.whyAdoptBG {
+		min-height: 100%;
+		background-attachment: fixed;
+	}
+	#whyAdoptHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 60px;
+		/*color: #FFC107;*/
+	}
+	.whyPosition {
+		position: relative;
+		top: 10%;
+	}
+	.whyPosition p {
+		font-size: 16px;
+	}
+	.whyPosition span {
+		display: block;
+	}
+	/*end whyAdopt*/
+
+	/*howAdopt*/
+	.howAdoptBG {
+		min-height: 100%;
+		background-attachment: fixed;
+	}
+	#howAdoptHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 70px;
+	}
+	.howPosition {
+		position: relative;
+		top: 8%;
+	}
+	.howPosition2 {
+		position: relative;
+		top: 5%;
+	}
+	.howPosition p {
+		font-size: 18px;
+	}
+	/*end howAdopt*/
+
+	/*gelo*/
+	#geloBG {
+		height: 100vh;
+		background-attachment: fixed;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.geloFriend {
+		font-family: 'Sacramento', cursive;
+		font-size: 45px;
+	}
+	/*end gelo*/
+
+	/*contact*/
+	.contactBG {
+		height: 55vh;
+		background-image: url(contact.png);
+		background-position: center;
+		background-size: cover;
+	}
+	#contactHead {
+		font-family: 'Sacramento', cursive;
+		font-size: 50px;
+	}
+	.contactPosition p {
+		font-size: 10px;
+	}
+	.footer {
+		font-size: 12px;
+	}
+	.social-media {
+		display: block;
+		text-align: right;
+		margin-top: 5px;
+	}
+	.social-media a{
+		color: #333;
+	}
+	/*end contact*/
+
+	/*shelter*/
+	.shelterBG {
+		height: 100%;
+	}
+	.jumbotron {
+	background-color: rgba(255,193,7,0.2);
+	border-radius: 30px;
+	}
+	.taf {
+		font-size: 25px;
+	}
+	.shelterBG a {
+		width: 100%;
+		margin: 8px 0px;
+	}
+	/*end shelter*/
+
+	/*rescue*/
+	.rescueBG {
+		height: 100%;
+	}
+	/*end rescue*/
+
+	/*history*/
+	.historyHead {
+		font-size: 45px;
+		margin-top: 30px;
+	}
+	/*end history*/
+
+	.tableOverflow table {
+		table-layout: auto;
+	}
+
+	.tableOverflow span {
+		display: flex;
+		flex-direction: column;
+	}
+	.tableOverflow {
+		white-space: nowrap; 
+	 	width: 100%; 
+	    overflow: scroll;
+	}
+	.tableOverflow::-webkit-scrollbar { 
+	    display: none;  /* Safari and Chrome */
+	}
+	.tableOverflow {
+	    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+	    scrollbar-width: none;  /* Firefox */
+	}
+
+	/*Admin*/
+	.adminBG {
+		min-height: 100vh;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.adminBG thead {
+		background-color: rgba(255,193,7,0.5);
+		border-radius: 30px;
+	}
+	.adminHead {
+		font-size: 45px;
+	}
+	/*end Admin*/
+
+	/*Steps*/
+	#stepsBG {
+		background-image: url(stepsmobile.png);
+		background-size: contain;
+	}
+	/*end Steps*/
+}
