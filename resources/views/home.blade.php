@@ -52,25 +52,25 @@
 
     <section id="howAdopt">
         <div class="row howAdoptBG">
-            <div class="col-lg-5 offset-lg-2 col-md-9">
-                <div class="howPosition ml-md-5">
+            <div class="col-lg-6 offset-lg-2 col-md-9">
+                <div class="howPosition p-md-4 p-3">
                     <h1 class="" id="howAdoptHead">How It Works?</h1>
-                    <p class="px-3 text-justify">As a Fur Parent, you both have the privilege to request to <i>RESCUE</i> or to <i>ADOPT</i> a pet. Once done, your request will be sent to the administrator as a <strong>PENDING STATUS</strong>. Once the administrator approves your request, you will undergo a <strong>SCREENING PROCESS</strong> and once you passed, you will be scheduled for <strong>PICK UP</strong>.</p>
+                    <p class="px-lg-5 text-justify">As a Fur Parent, you both have the privilege to request to <i>RESCUE</i> or to <i>ADOPT</i> a pet. Once done, your request will be sent to the administrator as a <strong>PENDING STATUS</strong>. Once the administrator approves your request, you will undergo a <strong>SCREENING PROCESS</strong> and once you passed, you will be scheduled for <strong>PICK UP</strong>.</p>
                 </div>
                 <div class="row mt-5 ml-lg-0 ml-5 howPosition2">
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="{{ asset('pending.png') }}">
-                        <span class="lead">REQUEST</span>
+                        <img class="img-fluid m-3" src="{{ asset('pending.png') }}">
+                        <span class="lead d-lg-block">REQUEST</span>
                     </div>
                     {{-- end col --}}
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="{{ asset('screening.png') }}">
-                        <span class="lead">SCREEN</span>
+                        <img class="img-fluid m-3" src="{{ asset('screening.png') }}">
+                        <span class="lead d-lg-block">SCREEN</span>
                     </div>
                     {{-- end col --}}
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="{{ asset('pickup.png') }}">
-                        <span class="lead">ADOPT</span>
+                        <img class="img-fluid m-3" src="{{ asset('pickup.png') }}">
+                        <span class="lead d-lg-block">ADOPT</span>
                     </div>
                     {{-- end col --}}
                 </div>

@@ -153,7 +153,7 @@
                         </div>
                         {{-- end row --}}
                         <span class="ml-md-5 pl-md-5 footer">
-                            Micko Angelo Lacap | Zuitt Coding Bootcamp &copy; 2020
+                            Micko Angelo Lacap &copy; 2020
                         </span>
                         <span class="social-media p-md-3">
                             <a href="https://www.facebook.com/mickoangelolacap" target="_blank">

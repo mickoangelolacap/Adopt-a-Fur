@@ -119,14 +119,14 @@ label {
 }
 .howPosition2 {
 	position: relative;
-	top: 30%;
+	top: 25%;
 }
 .howPosition p {
 	font-size: 20px;
 }
 .howPosition2 img {
 	height: 50px;
-	margin: 20px;
+	margin-bottom: 10px;
 }
 .howPosition2 img:hover {
 	transform: scale(1.3);
@@ -159,7 +159,7 @@ label {
 	position: fixed;
 }*/
 .contactBG {
-	height: 70vh;
+	height: 80vh;
 	background-image: url(contact.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -519,11 +519,6 @@ label {
 	}
 	.footer {
 		font-size: 12px;
-	}
-	.social-media {
-		display: block;
-		text-align: right;
-		margin-top: 5px;
 	}
 	.social-media a{
 		color: #333;
